@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#MyToolTip").animate({opacity:0},0);$("#scroller-window").hover(function(){$(this).children("#MyToolTip").stop(true,true).delay(500).animate({opacity:1,top:"245px"},500)},function(){$(this).children("#MyToolTip").stop(true,true).animate({opacity:0},0,function(){$("#MyToolTip").css("top","230px")})})});// JavaScript Document
